@@ -27,7 +27,7 @@
     border-radius: 0px!important;
   }
   .share-widget.profile-section, .share-widget-container.ng-scope, .dropdown-toggle.btn.btn-default.ng-binding {
-    border-radius:0px;
+    border-radius:0px!important;
   }
 }
 .ga-stat-box-one {
