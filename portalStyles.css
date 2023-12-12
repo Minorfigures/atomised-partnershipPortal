@@ -21,7 +21,10 @@
     background-color:white;
   }
 }
-
+.ga-stat-box-one {
+  border: 1px solid black;
+  border-radius: 0px;
+}
 
 .ga-stat-box-one * i {
   color:black!important; 
