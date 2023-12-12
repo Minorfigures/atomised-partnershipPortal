@@ -33,3 +33,9 @@ i {
 body > div.ng-scope > div.ng-scope.custom-portal > div.portal-content > div > div > div.portal-right-col.col-sm-9.col-lg-10.no-padding {
   background-color:white!important;
 }
+
+
+.generic-portal .portal-content .portal-left-col .ambassador-nav li a:hover, .generic-portal .portal-content .portal-left-col .ambassador-nav li a:focus, .generic-portal .portal-content .portal-left-col .ambassador-nav li a.active, .custom-portal .portal-content .portal-left-col .ambassador-nav li a:hover, .custom-portal .portal-content .portal-left-col .ambassador-nav li a:focus, .custom-portal .portal-content .portal-left-col .ambassador-nav li a.active {
+font-style: italic;
+
+}
