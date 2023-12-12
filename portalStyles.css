@@ -1,3 +1,28 @@
+@media (max-width: 767px) {
+
+  body > div.ng-scope > div.ng-scope.custom-portal > div.tmz_menu_button > svg > path {
+    fill:black!important;
+    
+  }
+  body > div.ng-scope > div.ng-scope.custom-portal > div:nth-child(1) {
+    background-color:white;
+  }
+  .custom-portal .portal-content .portal-right-col .tmz-col .ga-stat-box-one {
+    color:black!important;
+    background-color:white!important; 
+    border:1px;
+    border-color:black; 
+    border-radius:0px;
+    border-style:solid;
+  }
+  .custom-portal .portal-content .portal-right-col .tmz-col .ga-stat-box-one i {
+    background:none;
+    color:black;
+    background-color:white;
+  }
+}
+
+
 body > div.ng-scope > div.ng-scope.custom-portal > div.portal-content > div > div > div.portal-right-col.col-sm-9.col-lg-10.no-padding > div.portal-right-col-content.campaign-bar > div > div.profile-section.profile-monetary-stats.ng-scope > div > div:nth-child(1) > div > i {
   color:black!important; 
 }
