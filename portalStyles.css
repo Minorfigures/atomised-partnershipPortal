@@ -31,7 +31,9 @@ display:none!important;
 portal-content * {
   font-size:12px!important;
 }
-
+ng-scope ng-isolate-scope {
+  display:none;
+}
 body > div.ng-scope > div.ng-scope.custom-portal > div.portal-content > div > div > div.portal-right-col.col-sm-9.col-lg-10.no-padding {
   background-color:white!important;
 }
