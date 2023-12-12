@@ -26,7 +26,10 @@
   border-radius: 0px;
 }
 .ga-stat-box-one i {
-display:none!important;
+  display:none!important;
+}
+.portal-right-col-content.campaign-bar {
+  background-color:white;
 }
 portal-content * {
   font-size:12px!important;
