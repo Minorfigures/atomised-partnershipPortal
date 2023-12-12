@@ -17,7 +17,7 @@
   }
   .custom-portal .portal-content .portal-right-col .tmz-col .ga-stat-box-one i {
     background:none;
-    color:black;
+    color:black!important;
     background-color:white;
   }
 }
