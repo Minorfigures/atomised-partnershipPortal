@@ -22,7 +22,8 @@
   }
 }
 
-.ga-stat-box-one i{
+
+.ga-stat-box-one * i {
   color:black!important; 
 }
 
