@@ -1,3 +1,7 @@
 .test  {
   color:black;
 }
+
+body > div.ng-scope > div.ng-scope.custom-portal > div.portal-content > div > div > div.portal-right-col.col-sm-9.col-lg-10.no-padding > div.portal-right-col-content.campaign-bar > div > div.profile-section.profile-monetary-stats.ng-scope > div > div:nth-child(1) > div > i {
+  color:black!important; 
+}
