@@ -29,6 +29,9 @@
   .share-widget.profile-section, .share-widget-container.ng-scope, .dropdown-toggle.btn.btn-default.ng-binding {
     border-radius:0px!important;
   }
+  .custom-portal .portal-content .portal-right-col .share-widget-container {
+    border: 1px solid black;
+  }
 }
 .ga-stat-box-one {
   border: 1px solid black!important;
