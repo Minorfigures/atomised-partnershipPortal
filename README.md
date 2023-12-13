@@ -1,2 +1,3 @@
 # atomised-partnershipPortal
-Portal Styles for ambassador program
+Portal Styles for getambassador program
+
