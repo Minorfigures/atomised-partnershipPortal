@@ -31,6 +31,8 @@
   }
   .custom-portal .portal-content .portal-right-col .share-widget-container {
     border: 1px solid black;
+    background-color:white;
+    border-radius:0px;
   }
 }
 .ga-stat-box-one {
