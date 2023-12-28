@@ -21,7 +21,7 @@ form.ng-pristine.ng-valid{
   content:"MINOR FIGURES > ATOMISED > PARTNERSHIP";
   color: black;
 }
-.ng-pristine.ng-valid{
+div[ng-form="loginFields"]{
   padding-top:35px;
 }
 .custom-auth-body {
