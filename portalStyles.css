@@ -15,6 +15,14 @@
     width:30%!important;
   }
 }
+@media (min-width: 768px){
+  .col-lg-10{
+    width:70%!important;
+  }
+  .col-lg-2 {
+    width:30%!important;
+  }
+}
 @media (max-width: 767px) {
 
   body > div.ng-scope > div.ng-scope.custom-portal > div.tmz_menu_button > svg > path {
