@@ -47,8 +47,8 @@ input[type="password"], input[type="text"] {
   width: 100%;
   min-height: 35px;
 }
-.custom-auth .auth-container .login-form-wrapper form {
-  margin-bottom:0px!important; 
+body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > form {
+  margin-bottom:none!important; 
 }
 
 .form-group {
