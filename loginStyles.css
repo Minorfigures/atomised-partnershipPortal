@@ -27,7 +27,7 @@ form[data-form-type="login"]{
   display:block!important;
 }
 
-ng-valid.ng-dirty.ng-valid-parse::before{
+.form.ng-valid.ng-dirty.ng-valid-parse::before{
   content:"MINOR FIGURES > ATOMISED > PARTNERSHIP"!important;
   color: black!important;
   margin-bottom:25px!important;
