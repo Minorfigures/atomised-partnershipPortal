@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-
+.login-form-wrapper *{
+  font-family: 'Space Mono', monospace !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    letter-spacing: 1.2px !important;
+    line-height: 22px !important;
+}
 
 .btn.btn-default  {
   background-color:white!important; 
