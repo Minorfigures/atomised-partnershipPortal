@@ -55,6 +55,7 @@ input[type="password"], input[type="text"] {
 }
 body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > form {
   margin-bottom:0px;
+  text-align: center;
 }
 
 .form-group {
