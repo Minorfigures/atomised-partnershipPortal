@@ -25,6 +25,7 @@
   .ga-stat-box-one {
     display: flex!important;
     justify-content: space-between!important;
+    height: 35px!important;
   }
   .ga-stat-box-one i {
     margin: 0px!important;
