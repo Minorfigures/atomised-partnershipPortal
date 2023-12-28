@@ -28,3 +28,10 @@ div[ng-form="loginFields"]{
 .custom-auth-body {
   background: white!important;
 }
+
+input {
+  max-height: 35px;
+  min-height: 35px;
+  border: 1px solid black!important;
+    border-radius: 0px;
+}
