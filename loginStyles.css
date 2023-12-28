@@ -75,7 +75,7 @@ body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > f
 
 @media (max-width: 767px) {
   .login-form-wrapper{
-    box-shadow: none;
+    box-shadow: none!important;
   }
   button {
     border-radius: 0px!important;
