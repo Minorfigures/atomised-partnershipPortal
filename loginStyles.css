@@ -11,7 +11,7 @@
 .btn.btn-default  {
   background-color:white!important; 
 }
-.logo-image {
+.logo {
   text-align: -webkit-center;
   width: 30%;
   display:none;
@@ -20,7 +20,13 @@ form[data-form-type="login"]{
   text-align:center!important;
 }
 
-form[data-form-type="login"]::before {
+.form.ng-pristine.ng-valid::before {
+  content:"MINOR FIGURES > ATOMISED > PARTNERSHIP"!important;
+  color: black!important;
+  margin-bottom:25px!important;
+  display:block!important;
+}
+.ng-valid.ng-dirty.ng-valid-parse::before{
   content:"MINOR FIGURES > ATOMISED > PARTNERSHIP"!important;
   color: black!important;
   margin-bottom:25px!important;
