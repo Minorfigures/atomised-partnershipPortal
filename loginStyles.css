@@ -26,7 +26,8 @@ form[data-form-type="login"]{
   margin-bottom:25px!important;
   display:block!important;
 }
-.ng-valid.ng-dirty.ng-valid-parse::before{
+
+ng-valid.ng-dirty.ng-valid-parse::before{
   content:"MINOR FIGURES > ATOMISED > PARTNERSHIP"!important;
   color: black!important;
   margin-bottom:25px!important;
@@ -64,14 +65,6 @@ body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > f
 body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > form > div > div:nth-child(1) {
   margin-top:35px;
 }
-
-/*
-body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > form > div > div:nth-child(1)::before {
-  content:"MINOR FIGURES > ATOMISED > PARTNERSHIP"!important;
-  color: black!important;
-  margin-bottom:35px!important;
-  display:block!important;
-}*/
 
 @media (max-width: 767px) {
   .login-form-wrapper{
