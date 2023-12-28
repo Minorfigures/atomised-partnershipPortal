@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
 .btn.btn-default  {
   background-color:white!important; 
 }
@@ -5,9 +8,15 @@
   text-align: -webkit-center;
   width: 30%;
 }
+form.ng-pristine.ng-valid{
+  text-align:center;
+}
 .form.ng-pristine.ng-valid::before {
   content:"MINOR FIGURES > ATOMISED > PARTNERSHIP";
   color: black;
+}
+.ng-pristine.ng-valid{
+  padding-top:35px;
 }
 .custom-auth-body {
   background: white!important;
