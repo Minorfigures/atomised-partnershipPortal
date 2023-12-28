@@ -17,7 +17,7 @@
   display:none;
 }
 form[data-form-type="login"]{
-  text-align:center;
+  text-align:center!important;
 }
 
 form[data-form-type="login"]::before {
