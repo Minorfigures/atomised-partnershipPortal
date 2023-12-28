@@ -14,6 +14,7 @@
 .logo-image {
   text-align: -webkit-center;
   width: 30%;
+  display:none;
 }
 form[data-form-type="login"]{
   text-align:center;
