@@ -22,6 +22,7 @@ form[data-form-type="login"]{
 div[data-form-type="login"]::before {
   content:"MINOR FIGURES > ATOMISED > PARTNERSHIP";
   color: black;
+  margin-bottom:35px;
 }
 div[ng-form="loginFields"]{
   margin-top:35px;
@@ -35,4 +36,5 @@ input[type="password"], input[type="text"] {
   min-height: 35px;
   border: 1px solid black!important;
   border-radius: 0px;
+  color:black;
 }
