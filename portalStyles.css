@@ -134,6 +134,6 @@ body > div.ng-scope > div.ng-scope.custom-portal > div.portal-content > div > di
   display: none!important;
 }
 
-.icon-portal, .icon-growth, icon-commissions, icon-resources {
+.icon-portal, .icon-growth, .icon-commissions, .icon-resources {
   display: none!important;
 }
