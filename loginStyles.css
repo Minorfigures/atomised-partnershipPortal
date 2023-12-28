@@ -20,11 +20,7 @@ form[data-form-type="login"]{
   text-align:center;
 }
 
-div[data-form-type="login"]{
-  text-align: center;
-  }  
-
-div[data-form-type="login"]::before {
+form[data-form-type="login"]::before {
   content:"MINOR FIGURES > ATOMISED > PARTNERSHIP"!important;
   color: black!important;
   margin-bottom:35px!important;
