@@ -47,6 +47,9 @@ input[type="password"], input[type="text"] {
   width: 100%;
   min-height: 35px;
 }
+.custom-auth .auth-container .login-form-wrapper form {
+  margin-bottom:0px!important; 
+}
 
 .form-group {
   margin-bottom: 8px!important;
