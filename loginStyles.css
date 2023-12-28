@@ -23,8 +23,12 @@ div[data-form-type="login"]::before {
   content:"MINOR FIGURES > ATOMISED > PARTNERSHIP";
   color: black;
   margin-bottom:35px;
-  text-align: center;
+  display:block;
 }
+div[data-form-type="login"]{
+text-align: center;
+}
+
 div[ng-form="loginFields"]{
   margin-top:35px;
 }
