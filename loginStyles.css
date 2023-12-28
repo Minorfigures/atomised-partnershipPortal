@@ -72,3 +72,15 @@ body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > f
   margin-bottom:35px!important;
   display:block!important;
 }*/
+
+@media (max-width: 767px) {
+  .login-form-wrapper{
+    box-shadow: none;
+  }
+  button {
+    border-radius: 0px!important;
+  }
+  input[type="password"], input[type="text"]{
+    background-color: white!important;
+  }
+}
