@@ -6,6 +6,7 @@
   letter-spacing: 1.2px !important;
   line-height: 22px !important;
   text-transform: uppercase!important;
+  color:black!important;
 }
 
 @media (max-width: 767px) {
