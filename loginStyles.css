@@ -38,3 +38,13 @@ input[type="password"], input[type="text"] {
   border-radius: 0px;
   color:black;
 }
+
+.custom-auth .auth-container .login-form-wrapper .btn {
+  max-height: 35px;
+  width: 100%;
+  min-height: 35px;
+}
+
+.form-group {
+  margin-bottom: 8px!important;
+}
