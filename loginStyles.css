@@ -5,3 +5,7 @@
   text-align: -webkit-center;
   width: 30%;
 }
+.form.ng-pristine.ng-valid::before {
+  content:"MINOR FIGURES > ATOMISED > PARTNERSHIP";
+  color: black;
+}
