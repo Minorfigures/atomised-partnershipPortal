@@ -10,5 +10,6 @@
   color: black;
 }
 .custom-auth-body {
-  background-color: white!important;
+  background: white!important;
+  
 }
