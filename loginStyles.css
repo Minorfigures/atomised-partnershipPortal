@@ -5,6 +5,7 @@
     font-size: 12px !important;
     letter-spacing: 1.2px !important;
     line-height: 22px !important;
+    text-transform: uppercase!important;
 }
 
 .btn.btn-default  {
@@ -22,7 +23,7 @@ form.ng-pristine.ng-valid{
   color: black;
 }
 div[ng-form="loginFields"]{
-  padding-top:35px;
+  margin-top:35px;
 }
 .custom-auth-body {
   background: white!important;
