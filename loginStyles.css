@@ -15,10 +15,10 @@
   text-align: -webkit-center;
   width: 30%;
 }
-form.ng-pristine.ng-valid{
+form[data-form-type="login"]{
   text-align:center;
 }
-.form.ng-pristine.ng-valid::before {
+div[ng-form="loginFields"]::before {
   content:"MINOR FIGURES > ATOMISED > PARTNERSHIP";
   color: black;
 }
