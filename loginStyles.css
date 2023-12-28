@@ -23,6 +23,7 @@ div[data-form-type="login"]::before {
   content:"MINOR FIGURES > ATOMISED > PARTNERSHIP";
   color: black;
   margin-bottom:35px;
+  text-align: center;
 }
 div[ng-form="loginFields"]{
   margin-top:35px;
@@ -47,4 +48,7 @@ input[type="password"], input[type="text"] {
 
 .form-group {
   margin-bottom: 8px!important;
+}
+body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > form > div > div:nth-child(1) {
+  margin-top:35px;
 }
