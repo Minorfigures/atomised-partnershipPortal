@@ -29,7 +29,7 @@ div[ng-form="loginFields"]{
   background: white!important;
 }
 
-inner-field-wrapper  {
+input[type="password"], input[type="text"] {
   max-height: 35px;
   min-height: 35px;
   border: 1px solid black!important;
