@@ -57,3 +57,9 @@ input[type="password"], input[type="text"] {
 body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > form > div > div:nth-child(1) {
   margin-top:35px;
 }
+body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > form > div > div:nth-child(1)::BEFORE {
+  content:"MINOR FIGURES > ATOMISED > PARTNERSHIP"!important;
+  color: black!important;
+  margin-bottom:35px!important;
+  display:block!important;
+}
