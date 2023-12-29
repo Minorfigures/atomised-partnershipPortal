@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 .ng-scope.custom-portal * {
   font-family: 'Space Mono', monospace !important;
   font-weight: 400 !important;
@@ -7,20 +8,14 @@
   line-height: 22px !important;
   text-transform: uppercase!important;
 }
-@media (min-width: 1200px){
-  .col-lg-10{
-    width:70%!important;
+
+/* Styles for viewports 768px and larger, but less than 1200px */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .col-sm-9 {
+    width: 70%!important;
   }
-  .col-lg-2 {
-    width:30%!important;
-  }
-}
-@media (min-width: 768px){
-  .col-sm-9{
-    width:70%!important;
-  }
-  .col-sm-3  {
-    width:30%!important;
+  .col-sm-3 {
+    width: 30%!important;
   }
   .ga-stat-box-one {
     display: flex!important;
@@ -31,13 +26,26 @@
     margin: 0px!important;
   }
   .stat-title.ng-binding {
-    text-align:left;
-    width:100%;
+    text-align: left;
+    width: 100%;
+  }
+  .custom-portal .portal-left-col {
+    right: 0!important;
+    left: 0!important;
+  }
 }
-.custom-portal .portal-left-col {
-  right:0!important;
-  left:0!important;
+
+/* Styles for viewports 1200px and larger */
+@media (min-width: 1200px) {
+  .col-lg-10 {
+    width: 70%!important;
+  }
+  .col-lg-2 {
+    width: 30%!important;
+  }
 }
+
+/* Styles for viewports less than 768px */
 @media (max-width: 767px) {
 
   body > div.ng-scope > div.ng-scope.custom-portal > div.tmz_menu_button > svg > path {
@@ -86,6 +94,14 @@
   .icon-mp-dashboard, .icon-mp-refer, .icon-mp-loyalty, .icon-mp-assets, .icon-mp-logout {
     display:none!important;
 }
+}
+
+
+.header-left.desktop_show::before {
+  content: "MINOR FIGURES > ATOMISED > PARTNERSHIP";
+  display: block;
+}
+
 .ga-stat-box-one {
   border: 1px solid black!important;
   border-radius: 0px;
