@@ -30,6 +30,9 @@
   .ga-stat-box-one i {
     margin: 0px!important;
   }
+  .stat-title.ng-binding {
+    text-align:left;
+    width:100%;
 }
 @media (max-width: 767px) {
 
