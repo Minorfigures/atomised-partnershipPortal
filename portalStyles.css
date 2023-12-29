@@ -98,12 +98,15 @@
   .tmz_back_button {
      -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
      filter: invert(100%);
-     color:black!important;
+     background:white!important;
   }
+  .tmz_back_button sgv {
+     -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+     filter: invert(100%);
 }
-
+}
 @media (max-width: 415px) {
-  .ga-stat-box-one{
+  .ga-stat-box-one {
       padding: 0px 6px!important;
   }
 }
