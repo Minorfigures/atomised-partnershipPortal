@@ -128,7 +128,7 @@
   .generic-portal footer p, .custom-portal footer p {
     text-align: left!important;
   }
-  .glyphicon.glyphicon-share-alt, fa fa-files-o {
+  .glyphicon.glyphicon-share-alt, .fa.fa-files-o {
     display:none;
   }
 }
@@ -142,6 +142,16 @@
 }
 
  /* GLOBAL STYLING */
+button {
+  color: white!important;
+  background: black!important;
+  border: none!important;
+  height: 35px!important;
+}
+
+ .avatar-upload.ng-scope {
+  display:none!important;
+ }
  .triangle-with-shadow:after{
   border:1px solid black!important;
  }
