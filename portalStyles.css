@@ -74,6 +74,10 @@
   .nav.navbar-nav {
     display: none!important;
   }
+  .tmz_menu_button {
+    left:unset!important; 
+    right:20px;
+}
 }
 .ga-stat-box-one {
   border: 1px solid black!important;
