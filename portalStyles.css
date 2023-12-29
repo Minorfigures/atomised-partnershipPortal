@@ -7,6 +7,7 @@
   letter-spacing: 1.2px !important;
   line-height: 22px !important;
   text-transform: uppercase!important;
+  border-color: black!important;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -130,6 +131,10 @@
 }
 
  /* GLOBAL STYLING */
+
+ .text-center activity-icon.activity-icon-ambassador.activity-icon-left i {
+  color: black!important;
+ }
 .header-left.desktop_show::before {
   content: "MINOR FIGURES > ATOMISED > PARTNERSHIP";
   display: block;
