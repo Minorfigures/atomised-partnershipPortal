@@ -142,7 +142,9 @@
 }
 
  /* GLOBAL STYLING */
-
+ .triangle-with-shadow:after{
+  border:1px solid black!important;
+ }
  .text-center activity-icon.activity-icon-ambassador.activity-icon-left i {
   color: black!important;
  }
