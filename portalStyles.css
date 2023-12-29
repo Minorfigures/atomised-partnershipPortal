@@ -102,10 +102,10 @@
     right:20px;
     top:8px!important;
     transform: rotate(180deg);
-}
+  }
   .icon-mp-dashboard, .icon-mp-refer, .icon-mp-loyalty, .icon-mp-assets, .icon-mp-logout {
     display:none!important;
-}
+  }
 /*
   .tmz_back_button {
      background:white!important;
@@ -124,7 +124,10 @@
     border: 1px solid black!important;
     border-radius: 0px;
     padding: 6px 20px!important;
-}
+  }
+  .generic-portal footer p, .custom-portal footer p {
+    text-align: left!important;
+  }
 
 }
 
