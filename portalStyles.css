@@ -128,7 +128,9 @@
   .generic-portal footer p, .custom-portal footer p {
     text-align: left!important;
   }
-
+  .glyphicon.glyphicon-share-alt, fa fa-files-o {
+    display:none;
+  }
 }
 
 @media (max-width: 415px) {
