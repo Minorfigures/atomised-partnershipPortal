@@ -9,7 +9,6 @@
   text-transform: uppercase!important;
 }
 
-/* Styles for viewports 768px and larger, but less than 1200px */
 @media (min-width: 768px) and (max-width: 1199px) {
   .col-sm-9 {
     width: 70%!important;
@@ -40,7 +39,6 @@
 }
 }
 
-/* Styles for viewports 1200px and larger */
 @media (min-width: 1200px) {
   .col-lg-10 {
     width: 70%!important;
@@ -109,7 +107,6 @@
      background:white!important;
 
   }
-
   .tmz_back_button sgv {
      -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
      filter: invert(100%);
@@ -123,6 +120,7 @@
     right:0px!important;
   }
 }
+
 @media (max-width: 415px) {
   .ga-stat-box-one {
       border: 1px solid black!important;
@@ -130,22 +128,25 @@
       padding: 0px 6px!important;
   }
 }
+
  /* GLOBAL STYLING */
 .header-left.desktop_show::before {
   content: "MINOR FIGURES > ATOMISED > PARTNERSHIP";
   display: block;
 }
 
-
 .ga-stat-box-one i {
   display:none!important;
 }
+
 .portal-right-col-content.campaign-bar {
   background-color:white;
 }
+
 portal-content * {
   font-size:12px!important;
 }
+
 .ga-avatar {
   display:none;
 }
@@ -158,15 +159,18 @@ portal-content * {
   height:56px!important;
   padding-left: 20px!important;
 }
+
 .header-left.desktop_show::before {
   content:"MINOR FIGURES > ATOMISED > PARTNERSHIP";
   display:block;
 }
+
 .header-left.desktop_show {
     display: flex!important;
     align-items: center;
     width: 100%;
 }
+
 .ambassador-social.desktop_show {
   display:none;
 }
@@ -222,4 +226,3 @@ body > div.ng-scope > div.ng-scope.custom-portal > div.portal-content > div > di
 input[type="text"], input[type="password"], input[type="email"], select {
   height:35px!important;
 }
-/* sgv flip: transform: rotate(180deg); */
