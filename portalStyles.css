@@ -130,6 +130,9 @@
   .generic-portal footer p, .custom-portal footer p {
     text-align: left!important;
   }
+  .custom-portal footer {
+  background-color:white!important;
+  }
   .glyphicon.glyphicon-share-alt, .fa.fa-files-o {
     display:none;
   }
