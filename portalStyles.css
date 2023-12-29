@@ -145,7 +145,13 @@
 .raf-landing-body button em svg {
   display:none;
 }
-button {
+button[type="button"] {
+  color: white!important;
+  background: black!important;
+  border: none!important;
+  height: 35px!important;
+}
+.btn-primary {
   color: white!important;
   background: black!important;
   border: none!important;
