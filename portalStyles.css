@@ -142,6 +142,9 @@
 }
 
  /* GLOBAL STYLING */
+.raf-landing-body button em svg {
+  display:none;
+}
 button {
   color: white!important;
   background: black!important;
