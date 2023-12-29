@@ -84,7 +84,7 @@
     transform: rotate(180deg);
 }
   .icon-mp-dashboard, .icon-mp-refer, .icon-mp-loyalty, .icon-mp-assets, .icon-mp-logout {
-    display:none;
+    display:none!important;
 }
 .ga-stat-box-one {
   border: 1px solid black!important;
