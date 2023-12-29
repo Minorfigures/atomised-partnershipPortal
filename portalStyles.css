@@ -107,7 +107,7 @@
 }
   .tmz_back_button {
      background:white!important;
-     
+
   }
 
   .tmz_back_button sgv {
@@ -119,6 +119,9 @@
     border-radius: 0px;
     padding: 6px 20px!important;
 }
+  .custom-portal .portal-left-col {
+    right:0px!important;
+  }
 }
 @media (max-width: 415px) {
   .ga-stat-box-one {
@@ -146,9 +149,7 @@ portal-content * {
 .ga-avatar {
   display:none;
 }
-body > div.ng-scope > div.ng-scope.custom-portal > div.portal-content > div > div > div.portal-right-col.col-sm-9.col-:-10.no-padding {
-  background-color:white!important;
-}
+
 .custom-portal .portal-content .portal-left-col .ambassador-nav li a.active {
   font-style: italic!important;
 }
