@@ -104,22 +104,26 @@
   .icon-mp-dashboard, .icon-mp-refer, .icon-mp-loyalty, .icon-mp-assets, .icon-mp-logout {
     display:none!important;
 }
+/*
   .tmz_back_button {
      background:white!important;
   }
   .tmz_back_button sgv {
-     -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+     -webkit-filter: invert(100%);
      filter: invert(100%);
      fill:black!important;
 }
+
+.custom-portal .portal-left-col {
+  right:0px!important;
+}
+*/
   .ga-stat-box-one {
     border: 1px solid black!important;
     border-radius: 0px;
     padding: 6px 20px!important;
 }
-  .custom-portal .portal-left-col {
-    right:0px!important;
-  }
+
 }
 
 @media (max-width: 415px) {
