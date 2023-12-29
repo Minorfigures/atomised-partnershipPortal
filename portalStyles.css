@@ -89,14 +89,25 @@
   .tmz_menu_button {
     left:unset!important; 
     right:20px;
+    top:8px!important;
     transform: rotate(180deg);
 }
   .icon-mp-dashboard, .icon-mp-refer, .icon-mp-loyalty, .icon-mp-assets, .icon-mp-logout {
     display:none!important;
 }
+  .tmz_back_button {
+     -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+     filter: invert(100%);
+     color:black!important;
+  }
 }
 
-
+@media (max-width: 415px) {
+  .ga-stat-box-one{
+      padding: 0px 6px!important;
+  }
+}
+ /* GLOBAL STYLING */
 .header-left.desktop_show::before {
   content: "MINOR FIGURES > ATOMISED > PARTNERSHIP";
   display: block;
