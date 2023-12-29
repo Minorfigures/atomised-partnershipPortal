@@ -106,9 +106,8 @@
   .icon-mp-dashboard, .icon-mp-refer, .icon-mp-loyalty, .icon-mp-assets, .icon-mp-logout {
     display:none!important;
   }
-/*
+
   .tmz_back_button {
-     background:white!important;
   }
   .tmz_back_button sgv {
      -webkit-filter: invert(100%);
@@ -119,7 +118,7 @@
 .custom-portal .portal-left-col {
   right:0px!important;
 }
-*/
+
   .ga-stat-box-one {
     border: 1px solid black!important;
     border-radius: 0px;
@@ -145,6 +144,10 @@
 }
 
  /* GLOBAL STYLING */
+.text-center.activity-icon.activity-icon-share.activity-icon-left {
+colour:black!important;
+}
+
 .fa.fa-caret-down {
   font-family:'FontAwesome'!important;
 }
