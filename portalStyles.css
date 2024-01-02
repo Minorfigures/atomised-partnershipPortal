@@ -108,6 +108,8 @@
   }
 
   .tmz_back_button {
+    background: black;
+    filter:invert(1);
   }
   .tmz_back_button sgv {
      -webkit-filter: invert(100%);
@@ -141,14 +143,14 @@
 @media (max-width: 415px) {
   .ga-stat-box-one {
       border: 1px solid black!important;
-  border-radius: 0px;
+      border-radius: 0px;
       padding: 0px 6px!important;
   }
 }
 
  /* GLOBAL STYLING */
 .text-center.activity-icon.activity-icon-share.activity-icon-left {
-colour:black!important;
+  color:black!important;
 }
 
 .fa.fa-caret-down {
