@@ -141,7 +141,8 @@
   ga-activity-feed .activity-feed-container .activity .col-xs-12 {
     border: 1px solid black; 
     border-radius: 0px;
-    background:black!important;
+    background:white!important;
+    color:black!important;
   }
 }
 
