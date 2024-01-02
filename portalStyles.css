@@ -185,7 +185,7 @@ button[type="button"] {
  .triangle-with-shadow:after{
   border:1px solid black!important;
  }
- .text-center activity-icon.activity-icon-ambassador.activity-icon-left i {
+ .text-center activity-icon.activity-icon-ambassador.activity-icon-left, .icon-ambassador {
   color: black!important;
  }
 .header-left.desktop_show::before {
