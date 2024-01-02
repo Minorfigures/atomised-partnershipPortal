@@ -115,11 +115,11 @@
      -webkit-filter: invert(100%);
      filter: invert(100%);
      fill:black!important;
-}
+  }
 
-.custom-portal .portal-left-col {
-  right:0px!important;
-}
+  .custom-portal .portal-left-col {
+    right:0px!important;
+  }
 
   .ga-stat-box-one {
     border: 1px solid black!important;
@@ -137,6 +137,11 @@
   }
   .glyphicon.glyphicon-share-alt, .fa.fa-files-o {
     display:none;
+  }
+  ga-activity-feed .activity-feed-container .activity .col-xs-12 {
+    border: 1px solid black; 
+    border-radius: 0px;
+    background:black!important;
   }
 }
 
