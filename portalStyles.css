@@ -271,6 +271,13 @@ margin-right:auto!important;
 padding-left:20px!important;
 }
 
+.raf-landing-body button {
+    color: white!important;
+    background: black!important;
+    border-radius: 1px!important;
+    max-height: 35px!important;
+}
+
 ga-avatar {
   display: none!important;
 }
