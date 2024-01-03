@@ -58,7 +58,9 @@
 
 /* Styles for viewports less than 768px */
 @media (max-width: 767px) {
-
+  .nav.nav-pills.nav-stacked.ambassador-nav.mobile_show * {
+    color:black!important;
+  }
   body > div.ng-scope > div.ng-scope.custom-portal > div.tmz_menu_button > svg > path {
     fill:black!important;
     
