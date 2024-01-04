@@ -13,10 +13,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-  .col-sm-9 {
+  .portal-right-col {
     width: 70%!important;
   }
-  .col-sm-3 {
+  .portal-left-col {
     width: 30%!important;
   }
   .ga-stat-box-one {
@@ -43,10 +43,10 @@
 }
 
 @media (min-width: 1200px) {
-  .col-lg-10 {
+  .portal-right-col {
     width: 70%!important;
   }
-  .col-lg-2 {
+  .portal-left-col {
     width: 30%!important;
   }
   .ga-stat-box-one {
