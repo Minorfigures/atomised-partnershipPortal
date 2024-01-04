@@ -131,6 +131,7 @@
   }
   .generic-portal footer {
     background:white!important;
+    padding:10px 0px;
   }
   .generic-portal footer p, .custom-portal footer p {
     text-align: left!important;
