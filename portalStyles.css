@@ -312,6 +312,7 @@ input[type="text"], input[type="password"], input[type="email"], select {
 div[ng-if="payoutPreferenceOptions"] {
   display:none!important;
 }
-ga-form-field[model="notificationSettings.notify_fulfilled_payout"],ga-form-field[model="notificationSettings.notify_denied_commission"],ga-form-field[model="notificationSettings.notify_approved_commission"],ga-form-field[model="notificationSettings.notify_pending_commission"], .deactivate-btn {
+ga-form-field[model="notificationSettings.notify_fulfilled_payout"],ga-form-field[model="notificationSettings.notify_denied_commission"],ga-form-field[model="notificationSettings.notify_approved_commission"],ga-form-field[model="notificationSettings.notify_pending_commission"],ga-form-field[model="ambassador.username"], .deactivate-btn {
   display:none!important;
 }
+body > div.ng-scope > div.ng-scope.custom-portal > div.portal-content > div > div > div.portal-right-col.col-sm-9.col-lg-10 > div.portal-right-col-content.campaign-bar > div > div > div.form-container > div:nth-child(4) > div > div > p {display:none;}
