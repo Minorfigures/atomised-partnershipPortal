@@ -12,12 +12,7 @@
   border-radius: 0px!important;
 }
 
-div[ng-if="payoutPreferenceOptions"] {
-  display:none!important;
-}
-ga-form-field[model="notificationSettings.notify_fulfilled_payout"],ga-form-field[model="notificationSettings.notify_denied_commission"],ga-form-field[model="notificationSettings.notify_approved_commission"],ga-form-field[model="notificationSettings.notify_pending_commission"] {
-  display:none!important;
-}
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .portal-right-col {
     width: 70%!important;
@@ -311,4 +306,12 @@ input[type="text"], input[type="password"], input[type="email"], select {
 }
 .container-fluid {
   background:white;
+}
+
+/* profile remove sections */
+div[ng-if="payoutPreferenceOptions"] {
+  display:none!important;
+}
+ga-form-field[model="notificationSettings.notify_fulfilled_payout"],ga-form-field[model="notificationSettings.notify_denied_commission"],ga-form-field[model="notificationSettings.notify_approved_commission"],ga-form-field[model="notificationSettings.notify_pending_commission"], .deactivate-btn {
+  display:none!important;
 }
