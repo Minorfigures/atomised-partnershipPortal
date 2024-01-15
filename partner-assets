@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PARTNER ASSETS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Downloadable Files</h1>
+    <ul>
+        <li><a href="file1.txt" download="file1.txt">Download File 1</a></li>
+        <li><a href="file2.pdf" download="file2.pdf">Download File 2</a></li>
+        <li><a href="file3.zip" download="file3.zip">Download File 3</a></li>
+    </ul>
+</body>
+</html>
