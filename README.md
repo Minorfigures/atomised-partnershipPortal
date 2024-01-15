@@ -1,3 +1,6 @@
 # atomised-partnershipPortal
-Portal Styles for getambassador program
+getambassador supporting assets
+
+-Portal and login page Styles.
+-Roaster-assets page.
 
