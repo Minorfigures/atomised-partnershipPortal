@@ -308,6 +308,10 @@ input[type="text"], input[type="password"], input[type="email"], select {
   background:white;
 }
 
+iframe {
+  border:0px;
+}
+
 /* profile remove sections */
 div[ng-if="payoutPreferenceOptions"] {
   display:none!important;
