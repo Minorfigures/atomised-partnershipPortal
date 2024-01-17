@@ -8,9 +8,10 @@ body * {
     line-height: 22px !important;
     text-transform: uppercase!important;
     margin: 0;
-    padding: 0;
+    padding: 0px 10px;
     background-color: white;
     color:black;
+    max-width: 455px;
 }
 
 h1 {
