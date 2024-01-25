@@ -68,7 +68,7 @@ body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > f
 body > div.ng-scope > div > div > div.custom-auth.ng-scope > div > div > div > form > div > div:nth-child(1) {
   margin-top:35px;
 }
-.icon-portal, .icon-growth, .icon-commissions, .icon-resources, .fa.fa-facebook, .fa.fa-twitter, .fa.fa-linkedin, .fa.fa-tumblr, .fa.fa-pinterest, .fa.fa-info{
+.icon-portal, .icon-growth, .icon-commissions, .icon-resources, .fa.fa-facebook, .fa.fa-twitter, .fa.fa-linkedin, .fa.fa-tumblr, .fa.fa-pinterest, .fa.fa-info, .fa.ng-scope {
   display: none!important;
 }
 
