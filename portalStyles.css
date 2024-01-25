@@ -226,7 +226,7 @@ portal-content * {
   height:56px!important;
   padding-left: 20px!important;
 }
-.ambassador *{
+.tabs *, .campaign-chooser *, .ambassador *{
   color:black;
 }
 .header-left.desktop_show::before {
